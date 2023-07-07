@@ -20,6 +20,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .nav-title{
     color: #181818;
@@ -28,7 +29,7 @@ nav{
 }
 nav >ul{
     display: flex;
-    align-items: center;
+    align-items: center ;
 }
 nav li
 {
@@ -38,4 +39,15 @@ nav li
 nav a{
     text-decoration: none;
     color: #474747;
+}
+.header{
+    background: #fff8f3;
+}
+.banner{
+    padding: 30px 30px 30px 150px ;
+    display: flex;
+    align-items: center;
+}
+.banner .pro{
+    width: 500px;
 }
